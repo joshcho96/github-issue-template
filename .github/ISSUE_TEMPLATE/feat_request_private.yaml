@@ -20,17 +20,17 @@ body:
   - type: textarea
     id: feature-details
     attributes:
-      label: Feature Details
+      label: Details
       description: Please provide details for the feature. What does it do? How should it work?
-      placeholder: Explain your feature here
+      placeholder: ex. This feature allows users to...
     validations:
       required: true
   - type: textarea
-    id: motivation
+    id: feature-requirements
     attributes:
-      label: Motivation
-      description: Please explain why this feature is necessary/important for the project.
-      placeholder: Explain why we need this feature
+      label: Requirements
+      description: Please add requirements necessary/important for the project.
+      placeholder: ex. Must be able to handle 1000 concurrent users
     validations:
       required: true
   - type: checkboxes
