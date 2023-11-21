@@ -1,43 +1,44 @@
 name: "🚀 Add New Feature"
-description: "a new feature for the project"
-title: "[Feat]: "
+description: "Propose a new feature for the project"
+title: "[Feat]: " # Suggest completing the title with a concise feature synopsis
 labels: ["feature"]
-projects: ["joshcho96/test_project"]
-assignees:
-  - joshcho91
 body:
   - type: markdown
     attributes:
-      value: You must take time to fill out this report!
+      value: |
+        ## 🤝 Thank you for your contribution!
+        🚨 Please take the time to fill out this report with the necessary details. A well-structured feature request helps us better understand your proposal and expedite the review process.
+
+        ---
   - type: input
     id: figma
     attributes:
-      label: Design File
-      description: If there's a design for this feature, please provide the link here
-      placeholder: ex. https://www.figma.com/file/...
+      label: "🎨 Design File"
+      description: "If there's a design for this feature, please provide the Figma link or any relevant design reference here."
+      placeholder: "ex. https://www.figma.com/file/..."
     validations:
       required: false
   - type: textarea
     id: feature-details
     attributes:
-      label: Details
-      description: Please provide details for the feature. What does it do? How should it work?
-      placeholder: ex. This feature allows users to...
+      label: "✨ Feature Details"
+      description: "What's the purpose of this feature? Describe what it does, how it should function, and its value to the project."
+      placeholder: "This feature allows users to..."
     validations:
       required: true
   - type: textarea
     id: feature-requirements
     attributes:
-      label: Requirements
-      description: Please add requirements necessary/important for the project.
-      placeholder: ex. Must be able to handle 1000 concurrent users
+      label: "📋 Requirements"
+      description: "Outline any requirements or constraints that are critical for this feature. Include technical, performance, and user experience considerations."
+      placeholder: "Must be able to handle 1000 concurrent users, ensure GDPR compliance, etc."
     validations:
       required: true
   - type: checkboxes
     id: terms
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/joshcho96/issue_template/blob/main/CODE_OF_CONDUCT.md)
+      label: "📜 Code of Conduct"
+      description: "Please acknowledge our Code of Conduct before submitting this issue. This helps maintain a positive and inclusive environment for all contributors."
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: "I agree to follow this project's Code of Conduct."
           required: true
