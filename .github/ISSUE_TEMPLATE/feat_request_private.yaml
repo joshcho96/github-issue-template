@@ -2,7 +2,7 @@ name: "🚀 Add New Feature"
 description: "Propose a new feature for the project"
 title: "[Feature]: "
 labels: ["feature"]
-projects: ["test_project"]
+projects: ["joshcho96/test_project"]
 body:
   - type: markdown
     attributes:
