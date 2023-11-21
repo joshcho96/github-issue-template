@@ -1,64 +1,58 @@
 name: "🐛 Bug Report"
-description: "🐛 Bug Report"
+description: "Report a bug or unexpected behavior"
 title: "[Bug]: "
-labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
-assignees:
-  - octocat
+labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        ## 🐞 Bug Report Guide
+        A good bug report should be detailed enough for others to reproduce the issue. Please provide all necessary information to understand and replicate the bug. Your effort in reporting is valuable and appreciated!
   - type: input
-    id: contact
+    id: environment
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: "🌐 Environment"
+      description: "Specify where the bug occurred, such as browser version, operating system, or device."
+      placeholder: "e.g., Chrome 100 on Windows 10, iPhone 12 with iOS 14.4, etc."
+    validations:
+      required: true
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: "🔍 Bug Description"
+      description: "Provide a clear and concise description of what the bug is."
+      placeholder: "The user interface does not respond when I click the submit button..."
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: "👣 Steps to Reproduce"
+      description: "List the steps to reproduce the behavior you're reporting. Be as specific as possible."
+      placeholder: "1. Go to '...',\n2. Click on '....',\n3. Scroll down to '....',\n4. See error"
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: "🤔 Expected Behavior"
+      description: "Explain what you expected to happen when the bug occurred."
+      placeholder: "The system should process the data and redirect to the success page..."
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "📸 Screenshots/Logs"
+      description: "If applicable, add screenshots or error logs to help explain your problem. You can drag and drop images directly into the text area."
+      placeholder: "Attach images or paste logs here..."
     validations:
       required: false
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
-    validations:
-      required: true
-  - type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-      default: 0
-    validations:
-      required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
   - type: checkboxes
-    id: terms
+    id: terms-bug
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      label: "📜 Bug Reporting Conduct"
+      description: By reporting this bug, you confirm adherence to the project's [Code of Conduct](https://github.com/joshcho96/issue_template/blob/main/CODE_OF_CONDUCT.md). Please read it carefully.
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: "I acknowledge that I have read and agree to follow this project's [Code of Conduct](https://github.com/joshcho96/issue_template/blob/main/CODE_OF_CONDUCT.md)"
           required: true
