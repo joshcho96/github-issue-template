@@ -36,7 +36,7 @@ body:
     id: terms
     attributes:
       label: "📜 Code of Conduct"
-      description: By submitting this issue, you confirm adherence to the project's Code of Conduct. Please read it carefully.
+      description: By submitting this issue, you confirm adherence to the project's [Code of Conduct](https://github.com/joshcho96/issue_template/blob/main/CODE_OF_CONDUCT.md). Please read it carefully.
       options:
         - label: "I agree to follow this project's Code of Conduct."
           required: true
