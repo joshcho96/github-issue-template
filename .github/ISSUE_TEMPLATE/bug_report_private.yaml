@@ -1,5 +1,5 @@
 name: Bug Report
-description: Issue: 🐛 Bug Report
+description: "Issue: 🐛 Bug Report"
 title: "[Bug]: "
 labels: ["bug", "triage"]
 projects: ["octo-org/1", "octo-org/44"]
