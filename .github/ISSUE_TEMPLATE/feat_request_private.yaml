@@ -20,7 +20,7 @@ body:
     id: feature-details
     attributes:
       label: "✏️ Feature Details"
-      description: Provide in-depth details of the feature: its purpose, functionality, and how it adds value.
+      description: "Provide in-depth details of the feature: its purpose, functionality, and how it adds value."
       placeholder: "This feature allows users to..."
     validations:
       required: true
