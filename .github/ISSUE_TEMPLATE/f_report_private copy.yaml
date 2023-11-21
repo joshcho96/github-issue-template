@@ -1,10 +1,10 @@
-name: "🐛 Bug Report"
-description: "🐛 Bug Report"
-title: "[Bug]: "
-labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
+name: "🛠 Feature Report"
+description: "Feature Report"
+title: "[Feat]: "
+labels: ["enhancement"]
+projects: ["joshcho96/issue_template"]
 assignees:
-  - octocat
+  - joshcoh96
 body:
   - type: markdown
     attributes:
