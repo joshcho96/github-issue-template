@@ -1,15 +1,15 @@
-name: "🛠 Feature Request"
-description: "request features to the project"
+name: "🚀🆕Feature"
+description: "add new feature to the project"
 title: "[Feat]: "
-labels: ["enhancement"]
+labels: ["feature"]
 projects: ["joshcho96/issue_template"]
 assignees:
-  - joshcho96
+  - joshcho91
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        You must take time to fill out this report!
   - type: input
     id: contact
     attributes:
