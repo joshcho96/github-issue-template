@@ -1,0 +1,55 @@
+name: "✨ Enhance Existing Feature"
+description: "Suggest an enhancement for improving a current feature"
+title: "[Enhancement]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🚀 Enhancement Request Guide
+        We appreciate your initiative to improve the project's features. Please complete this form with detailed information about the enhancement you are suggesting. Your insights are valuable in making the project better for everyone!
+
+  - type: input
+    id: feature-name
+    attributes:
+      label: "📝 Current Feature Name"
+      description: "Name of the feature you would like to enhance."
+      placeholder: "e.g., User Authentication System"
+    validations:
+      required: true
+
+  - type: textarea
+    id: enhancement-details
+    attributes:
+      label: "✏️ Enhancement Details"
+      description: "Describe the enhancement in detail. Explain how it improves the current feature and the benefits it provides."
+      placeholder: "This enhancement will improve..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: potential-benefits
+    attributes:
+      label: "💡 Potential Benefits"
+      description: "Outline the benefits this enhancement will bring to the project, such as increased efficiency, better user experience, etc."
+      placeholder: "With this enhancement, the project will benefit from..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: considerations
+    attributes:
+      label: "🤔 Considerations"
+      description: "Please note any considerations or potential issues that might arise with the enhancement implementation, such as compatibility concerns or performance implications."
+      placeholder: "One thing to consider is..."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms-enhancement
+    attributes:
+      label: "📜 Code of Conduct"
+      description: "By submitting this issue, you affirm acceptance of the project's [Code of Conduct](https://github.com/joshcho96/issue_template/blob/main/CODE_OF_CONDUCT.md). Please ensure you have read it before proceeding."
+      options:
+        - label: "I agree to adhere to this project's [Code of Conduct](https://github.com/joshcho96/issue_template/blob/main/CODE_OF_CONDUCT.md)"
+          required: true
