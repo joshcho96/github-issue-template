@@ -45,7 +45,7 @@ Once you submit a pull request, one of the project maintainers will review the c
 
 ## Code of Conduct
 
-Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project, you agree to abide by its terms.
+Please note that this project is released with a [Contributor Code of Conduct](https://github.com/Liberty-Labs-AI/documents/blob/main/CODE_OF_CONDUCT.md). By participating in this project, you agree to abide by its terms.
 
 ## Questions or Need Help?
 
