@@ -1,5 +1,5 @@
 name: "🚀 Add New Feature"
-description: "add new feature to the project"
+description: "a new feature for the project"
 title: "[Feat]: "
 labels: ["feature"]
 projects: ["joshcho96/test_project"]
@@ -9,30 +9,30 @@ body:
   - type: markdown
     attributes:
       value: You must take time to fill out this report!
-      description: Where is the link to the design file?
   - type: input
     id: figma
     attributes:
       label: Design File
-      description: Where is the link to the design file?
+      description: If there's a design for this feature, please provide the link here
       placeholder: ex. https://www.figma.com/file/...
     validations:
       required: false
   - type: textarea
-    id: what-happened
+    id: feature-details
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: Feature Details
+      description: Please provide details for the feature. What does it do? How should it work?
+      placeholder: Explain your feature here
     validations:
       required: true
   - type: textarea
-    id: logs
+    id: motivation
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
+      label: Motivation
+      description: Please explain why this feature is necessary/important for the project.
+      placeholder: Explain why we need this feature
+    validations:
+      required: true
   - type: checkboxes
     id: terms
     attributes:
