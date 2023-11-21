@@ -9,13 +9,15 @@ body:
         ## 🤝 Thank you for your contribution!
         🚨 Please take the time to fill out this report with the necessary details. A well-structured feature request helps us better understand your proposal and expedite the review process.
 
+        Please format any code, commands, or links using Markdown code blocks or backticks for clarity.
+
         ---
   - type: input
     id: figma
     attributes:
       label: "🎨 Design File"
-      description: "If there's a design for this feature, please provide the Figma link or any relevant design reference here."
-      placeholder: "ex. https://www.figma.com/file/..."
+      description: "If there's a design for this feature, please format the Figma link as a code snippet (using backticks) for readability."
+      placeholder: "`https://www.figma.com/file/...`"
     validations:
       required: false
   - type: textarea
