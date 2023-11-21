@@ -1,46 +1,47 @@
-name: "🚀 Add New Feature"
-description: "Propose a new feature for the project"
-title: "[Feat]: " # Suggest completing the title with a concise feature synopsis
+name: "🚀 Feature Request"
+description: "Suggest a new feature for Liberty Labs project"
+title: "[Feature Request]: " # Please summarize the feature in your title
 labels: ["feature"]
 body:
   - type: markdown
     attributes:
       value: |
-        ## 🤝 Thank you for your contribution!
-        🚨 Please take the time to fill out this report with the necessary details. A well-structured feature request helps us better understand your proposal and expedite the review process.
-
-        Please format any code, commands, or links using Markdown code blocks or backticks for clarity.
+        # New Feature Proposal for Liberty Labs
+        We value your contributions and encourage you to provide a detailed description of the proposed feature. Please complete the following information to help us better evaluate and implement your request.
 
         ---
   - type: input
     id: figma
     attributes:
-      label: "🎨 Design File"
-      description: "If there's a design for this feature, please format the Figma link as a code snippet (using backticks) for readability."
-      placeholder: "`https://www.figma.com/file/...`"
+      label: "Design Reference (Optional)"
+      description: "If available, provide the link to any design reference for this feature (e.g., Figma, Adobe XD)."
+      placeholder: "e.g., https://www.figma.com/file/..."
     validations:
       required: false
   - type: textarea
     id: feature-details
     attributes:
-      label: "✨ Feature Details"
-      description: "What's the purpose of this feature? Describe what it does, how it should function, and its value to the project."
-      placeholder: "This feature allows users to..."
+      label: "Feature Details"
+      description: "Describe the scope and functionality of the proposed feature. Include how it should work and the expected benefits to the Liberty Labs project."
+      placeholder: "e.g., This feature will allow users to..."
     validations:
       required: true
   - type: textarea
     id: feature-requirements
     attributes:
-      label: "📋 Requirements"
-      description: "Outline any requirements or constraints that are critical for this feature. Include technical, performance, and user experience considerations."
-      placeholder: "Must be able to handle 1000 concurrent users, ensure GDPR compliance, etc."
+      label: "Requirements"
+      description: "Detail any specific requirements or dependencies for the implementation of this feature. Consider scalability, security, and compatibility."
+      placeholder: "e.g., Must support scalability for up to 10,000 users, adhere to industry-standard encryption, etc."
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: "### Code of Conduct"
   - type: checkboxes
     id: terms
     attributes:
-      label: "📜 Code of Conduct"
-      description: "Please acknowledge our Code of Conduct before submitting this issue. This helps maintain a positive and inclusive environment for all contributors."
+      label: ""
+      description: "As part of our commitment to a positive and professional environment, we require all contributors to adhere to our Code of Conduct."
       options:
-        - label: "I agree to follow this project's Code of Conduct."
+        - label: "I have read and agree to abide by the Liberty Labs Code of Conduct."
           required: true
