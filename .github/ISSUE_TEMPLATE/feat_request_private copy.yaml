@@ -1,10 +1,10 @@
-name: "🛠 Feature Report"
-description: "Feature Report"
+name: "🛠 Feature Request"
+description: "request features to the project"
 title: "[Feat]: "
 labels: ["enhancement"]
 projects: ["joshcho96/issue_template"]
 assignees:
-  - joshcoh96
+  - joshcho96
 body:
   - type: markdown
     attributes:
@@ -58,7 +58,7 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://libertylabs.ai)
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/joshcho96/issue_template/blob/main/CODE_OF_CONDUCT.md)
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
