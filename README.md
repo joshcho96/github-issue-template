@@ -6,7 +6,7 @@ Also includes a sample template for pull request
 
 create .github/ISSUE_TEMPLATE/
 
-add YAML files there.
+add YAML files there. Feel free to add/edit templates 
 
 Go to Issues Tab on this Git Repository and create New Issue!
 ![image](https://github.com/joshcho96/github-issue-template/assets/5096786/e556eafb-dfec-4506-8d30-5abd16f912c2)
